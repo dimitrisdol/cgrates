@@ -2,7 +2,7 @@
 
 cd /home/jim/Desktop/cgrates/CGrates_Tutorial/
 
-for i in {1..100}
+for i in {1..10000}
 do
 	cgr-console 'cost Category="call" Tenant="cgrates.org" Subject="3005" Destination="613" AnswerTime="2024-08-04T13:00:00Z" Usage="180s"'
 	cgr-console 'cost Category="call" Tenant="cgrates.org" Subject="3005" Destination="613" AnswerTime="2024-08-04T13:00:00Z" Usage="60s"'
